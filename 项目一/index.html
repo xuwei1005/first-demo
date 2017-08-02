@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+   
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <script src="js/index.js"></script> -->
+     <style>
+    html, body {
+        position: relative;
+        height: 100%;
+
+    }
+    body {
+        background: #eee;
+        font-family:"微软雅黑";
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+	.slide1{
+		background:url('images/3.jpg');
+		background-size:100% 100%;
+	}
+	.slide2{
+		background:url('images/bg5.jpg');
+		background-size:100% 100%;
+	}
+	.slide3{
+		background:url('images/bg5.jpg');
+		background-size:100% 100%;
+	}
+	.slide4{
+		background:url('images/bg5.jpg');
+		background-size:100% 100%;
+	}
+	.slide5{
+		background:url('images/bg5.jpg');
+		background-size:100% 100%;
+	}
+	.slide6{
+		background:url('images/3.jpg');
+		background-size:100% 100%;
+	}
+    </style>
+</head>
+<body>
+	 <div class="swiper-container">
+        <div class="swiper-wrapper">
+        <!-- 第一页 -->
+            <div class="swiper-slide slide1">
+
+            	<span class="ani resume1"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.5s" swiper-animate-delay="0s">PERSONAL RESUME</span>
+
+            	<p class="ani resume2"   swiper-animate-effect="bounceInRight" swiper-animate-duration="0.8s" swiper-animate-delay="0s">我的简历</p>
+
+            	<hr width="120" align="center" color="black" class="ani hr"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+
+            	<img src="images/6_03.png" alt="" class="ani photo1" swiper-animate-effect="bounceInRight" swiper-animate-duration="1.3s" swiper-animate-delay="0.3s">
+
+            	<div class="ani aim" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.6s" swiper-animate-delay="0s">
+            		<div >
+            			<span>求职</span><br>
+            			<span>|</span><br>
+            			<span>WEB前端工程师</span>
+            			
+            		</div>
+            	</div> 
+            		<div class="ani known-more"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1.2s" swiper-animate-delay="0.3s">
+            		
+            		<img src="images/known-more.png" alt="" width="220" height="50">
+            		</div>
+            		<span class="ani knownw"  swiper-animate-effect="bounceInLeft" swiper-animate-duration="1.3s" swiper-animate-delay="0s">进一步了解</span>
+            		<img src="images/web-swipe-tip.png" alt="" class="tip">
+            		<img src="images/music.png" alt="" class="music">
+                    <audio autoplay loop src="video/music.mp3" id="video"></audio>
+            	
+            </div>
+            <!-- 第二页 -->
+            <div class="swiper-slide slide2">
+            	<img src="images/bg3.png" alt="" width="320" height="600">
+            	<div class="ani inform"  swiper-animate-effect="flipInX" swiper-animate-duration="1.3s" swiper-animate-delay="0s">
+            		<ul class="informlist">
+            			<li>基本信息</li>
+            			<li>姓名：小歌</li>
+            			<li>民族：汉</li>
+            			<li>籍贯：南京</li>
+            			<li>年龄：24</li>
+            			<li>学历：研究生</li>
+            			<li>政治面貌：普通群众</li>
+            			<li>毕业院校：家里蹲大学</li>
+            			<li>爱好：旅游，阅读</li>
+            		</ul>
+            	</div>
+            	<img src="images/gyy.jpg" alt="" class="ani photo2"  swiper-animate-effect="bounceInDown" swiper-animate-duration="1.3s" swiper-animate-delay="0s">
+				<img src="images/web-swipe-tip.png" alt="" class="tip">
+				<img src="images/music.png" alt="" class="music">
+            </div>
+            <!-- 第三页 -->
+            <div class="swiper-slide slide3">
+				<span class="skill">专业技能</span>
+
+				<div class="ani skilldiv"  swiper-animate-effect="flipInY" swiper-animate-duration="1.3s" swiper-animate-delay="0s">
+					<ul class="skilllist">
+						<li>
+						<img src="images/skill1.png" alt="">
+						原生移动APP开发
+						</li>
+						<li>
+						<img src="images/skill2.png" alt="">
+						微信公共平台开发
+						</li>
+						<li>
+						<img src="images/skill3.png" alt="">
+						HTML5+CSS3应用
+						</li>
+						<li>
+						<img src="images/skill4.png" alt="">
+						Node.JS
+						</li>
+						<li>
+						<img src="images/skill5.png" alt="">
+						angular.js
+						</li>
+					</ul>
+				</div>
+           		 <img src="images/web-swipe-tip.png" alt="" class="tip">
+				<img src="images/music.png" alt="" class="music">
+			</div>
+			<!-- 第四页 -->
+            <div class="swiper-slide slide4">
+            <div class="line"></div>
+
+            <div class="circle one"></div>
+            <div class="circle second"></div>
+            <div class="circle third"></div>
+            <div class="circle fourth"></div>
+
+            <span class="study">学习及工作经历</span>
+			<div class="ani studydiv1"  swiper-animate-effect="flipInY" swiper-animate-duration="1.3s" swiper-animate-delay="0s">
+				<ul class="studylist1">
+					<li>2012.7-2014.3 某某单位</li>
+					<li>2014.3-2015.3 某某单位</li>
+					<li>2015.3-2016.9 某某单位</li>
+					<li>2016.9-2017.7 某某单位</li>
+				</ul>
+			</div>
+			
+			<div class="ani studydiv2"  swiper-animate-effect="flipInY" swiper-animate-duration="1.3s" swiper-animate-delay="0s">
+				
+				<ul class="studylist2">
+					<li>某某学历</li>
+					<li>某某学历</li>
+					<li>某某学历</li>
+					<li>某某学历</li>
+				</ul>
+			</div>
+
+
+
+           		 <img src="images/web-swipe-tip.png" alt="" class="tip">
+				<img src="images/music.png" alt="" class="music">
+            </div>
+			<!-- 第五页 -->
+            <div class="swiper-slide slide5">
+            <span class="contact">联系方式</span>
+			
+			<div class="ani contactw"  swiper-animate-effect="flipInY" swiper-animate-duration="1.3s" swiper-animate-delay="0s">
+				<p>Phone:1870517****</p>
+				<p>QQ:54369****</p>
+				<p>WeChat:1870517****</p>
+			</div>
+				<img src="images/web-swipe-tip.png" alt="" class="tip">
+				<img src="images/music.png" alt="" class="music">
+            </div>
+            <div class="swiper-slide slide6">
+            	<img src="images/known-more.png" alt="" height="200" class="ani photo3"  swiper-animate-effect="bounceInDown" swiper-animate-duration="0.5s" swiper-animate-delay="0.1s">
+				<div class="ani thank" swiper-animate-effect="bounceInDown" swiper-animate-duration="1s" swiper-animate-delay="0.1s">
+					<span>谢谢观看</span><br>
+					<span>|</span><br>
+					<span>Thank You!</span>
+				</div>
+				
+            	
+				<img src="images/music.png" alt="" class="music">
+            </div>
+            
+        </div>
+        <img src="images/web-swipe-tip.png" alt="" class="tip">
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+     <script src="js/jquery-1.11.0.js"></script>
+   
+    <script src="js/swiper.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/index.js"></script>
+
+   
+</body>
+</html>
